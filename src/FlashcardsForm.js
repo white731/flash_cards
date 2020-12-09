@@ -9,6 +9,9 @@ const Flashcardsform = (props) => {
 
     const handleSubmit = () => {
         props.createCard({category, question, answer})
+        setAnswer("")
+        setQuestion("")
+        setCategory("")
     }
 
   return (
