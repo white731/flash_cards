@@ -13,6 +13,9 @@ const eachCard = () =>
         question = {card.question} 
         answer = {card.answer} 
         categoryLength = {props.cardlist.length}
+        remove = {props.remove}
+        id = {card.id}
+        createCard = {props.createCard}
       />);
 
   return (
